@@ -405,24 +405,6 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory EPSILON/core/playgrounds
-
-# Convenience name for "all" pass in the directory.
-EPSILON/core/playgrounds/all:
-
-.PHONY : EPSILON/core/playgrounds/all
-
-# Convenience name for "clean" pass in the directory.
-EPSILON/core/playgrounds/clean:
-
-.PHONY : EPSILON/core/playgrounds/clean
-
-# Convenience name for "preinstall" pass in the directory.
-EPSILON/core/playgrounds/preinstall:
-
-.PHONY : EPSILON/core/playgrounds/preinstall
-
-#=============================================================================
 # Directory level rules for directory EPSILON/core/common
 
 # Convenience name for "all" pass in the directory.
@@ -595,7 +577,7 @@ clean: EPSILON/core/common/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/clean
 EPSILON/core/common/CMakeFiles/hkust_pl_ooqp_itf.dir/all:
 	$(MAKE) -f EPSILON/core/common/CMakeFiles/hkust_pl_ooqp_itf.dir/build.make EPSILON/core/common/CMakeFiles/hkust_pl_ooqp_itf.dir/depend
 	$(MAKE) -f EPSILON/core/common/CMakeFiles/hkust_pl_ooqp_itf.dir/build.make EPSILON/core/common/CMakeFiles/hkust_pl_ooqp_itf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=21 "Built target hkust_pl_ooqp_itf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=22 "Built target hkust_pl_ooqp_itf"
 .PHONY : EPSILON/core/common/CMakeFiles/hkust_pl_ooqp_itf.dir/all
 
 # Include target in all.
@@ -2192,7 +2174,7 @@ EPSILON/core/vehicle_model/CMakeFiles/hkust_pl_vehicle_model.dir/all: EPSILON/co
 EPSILON/core/vehicle_model/CMakeFiles/hkust_pl_vehicle_model.dir/all: EPSILON/core/common/CMakeFiles/hkust_pl_common.dir/all
 	$(MAKE) -f EPSILON/core/vehicle_model/CMakeFiles/hkust_pl_vehicle_model.dir/build.make EPSILON/core/vehicle_model/CMakeFiles/hkust_pl_vehicle_model.dir/depend
 	$(MAKE) -f EPSILON/core/vehicle_model/CMakeFiles/hkust_pl_vehicle_model.dir/build.make EPSILON/core/vehicle_model/CMakeFiles/hkust_pl_vehicle_model.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=28,29,30,31,32 "Built target hkust_pl_vehicle_model"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=29,30,31,32,33 "Built target hkust_pl_vehicle_model"
 .PHONY : EPSILON/core/vehicle_model/CMakeFiles/hkust_pl_vehicle_model.dir/all
 
 # Include target in all.
@@ -2622,7 +2604,7 @@ EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_cpp.dir/all:
 EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_cpp.dir/all: EPSILON/core/vehicle_msgs/CMakeFiles/_vehicle_msgs_generate_messages_check_deps_PolygonObstacle.dir/all
 	$(MAKE) -f EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_cpp.dir/build.make EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_cpp.dir/build.make EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=60,61,62,63,64,65,66,67 "Built target vehicle_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=59,60,61,62,63,64,65,66 "Built target vehicle_msgs_generate_messages_cpp"
 .PHONY : EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2755,7 +2737,7 @@ EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_geneus.dir/all: EPSILON/core/v
 
 # Build rule for subdir invocation for target.
 EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_geneus.dir/rule
@@ -2911,7 +2893,7 @@ all: EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 42
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages.dir/rule
@@ -3213,12 +3195,12 @@ EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_eus.dir/all:
 EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_eus.dir/all: EPSILON/core/vehicle_msgs/CMakeFiles/_vehicle_msgs_generate_messages_check_deps_PolygonObstacle.dir/all
 	$(MAKE) -f EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_eus.dir/build.make EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_eus.dir/build.make EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=68,69,70,71,72,73,74,75 "Built target vehicle_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=67,68,69,70,71,72,73,74,75 "Built target vehicle_msgs_generate_messages_eus"
 .PHONY : EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_generate_messages_eus.dir/rule
@@ -3469,123 +3451,6 @@ clean: EPSILON/core/vehicle_msgs/CMakeFiles/vehicle_msgs_genpy.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory EPSILON/aux_tools
-
-# Convenience name for "all" pass in the directory.
-EPSILON/aux_tools/all:
-
-.PHONY : EPSILON/aux_tools/all
-
-# Convenience name for "clean" pass in the directory.
-EPSILON/aux_tools/clean:
-
-.PHONY : EPSILON/aux_tools/clean
-
-# Convenience name for "preinstall" pass in the directory.
-EPSILON/aux_tools/preinstall:
-
-.PHONY : EPSILON/aux_tools/preinstall
-
-#=============================================================================
-# Directory level rules for directory EPSILON/core/phy_simulator
-
-# Convenience name for "all" pass in the directory.
-EPSILON/core/phy_simulator/all: EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/all
-EPSILON/core/phy_simulator/all: EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/all
-
-.PHONY : EPSILON/core/phy_simulator/all
-
-# Convenience name for "clean" pass in the directory.
-EPSILON/core/phy_simulator/clean: EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/clean
-EPSILON/core/phy_simulator/clean: EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/clean
-
-.PHONY : EPSILON/core/phy_simulator/clean
-
-# Convenience name for "preinstall" pass in the directory.
-EPSILON/core/phy_simulator/preinstall:
-
-.PHONY : EPSILON/core/phy_simulator/preinstall
-
-#=============================================================================
-# Target rules for target EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir
-
-# All Build rule for target.
-EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/all: EPSILON/core/common/CMakeFiles/hkust_pl_ooqp_itf.dir/all
-EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/all: EPSILON/core/common/CMakeFiles/hkust_pl_common.dir/all
-EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/all: EPSILON/core/vehicle_model/CMakeFiles/hkust_pl_vehicle_model.dir/all
-EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/all: EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/all
-	$(MAKE) -f EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/build.make EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/depend
-	$(MAKE) -f EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/build.make EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=54,55 "Built target phy_simulator_planning_node"
-.PHONY : EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/all
-
-# Include target in all.
-all: EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 18
-	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
-.PHONY : EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/rule
-
-# Convenience name for target.
-phy_simulator_planning_node: EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/rule
-
-.PHONY : phy_simulator_planning_node
-
-# clean rule for target.
-EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/clean:
-	$(MAKE) -f EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/build.make EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/clean
-.PHONY : EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/clean
-
-# clean rule for target.
-clean: EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir
-
-# All Build rule for target.
-EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/all: EPSILON/core/common/CMakeFiles/hkust_pl_ooqp_itf.dir/all
-EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/all: EPSILON/core/common/CMakeFiles/hkust_pl_common.dir/all
-EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/all: EPSILON/core/vehicle_model/CMakeFiles/hkust_pl_vehicle_model.dir/all
-	$(MAKE) -f EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/build.make EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/depend
-	$(MAKE) -f EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/build.make EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=53 "Built target phy_simulator_lib"
-.PHONY : EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/all
-
-# Include target in all.
-all: EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 16
-	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
-.PHONY : EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/rule
-
-# Convenience name for target.
-phy_simulator_lib: EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/rule
-
-.PHONY : phy_simulator_lib
-
-# clean rule for target.
-EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/clean:
-	$(MAKE) -f EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/build.make EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/clean
-.PHONY : EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/clean
-
-# clean rule for target.
-clean: EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Directory level rules for directory EPSILON/core/semantic_map_manager
 
 # Convenience name for "all" pass in the directory.
@@ -3615,7 +3480,7 @@ EPSILON/core/semantic_map_manager/CMakeFiles/hkust_smm_ros.dir/all: EPSILON/core
 EPSILON/core/semantic_map_manager/CMakeFiles/hkust_smm_ros.dir/all: EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/all
 	$(MAKE) -f EPSILON/core/semantic_map_manager/CMakeFiles/hkust_smm_ros.dir/build.make EPSILON/core/semantic_map_manager/CMakeFiles/hkust_smm_ros.dir/depend
 	$(MAKE) -f EPSILON/core/semantic_map_manager/CMakeFiles/hkust_smm_ros.dir/build.make EPSILON/core/semantic_map_manager/CMakeFiles/hkust_smm_ros.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=33 "Built target hkust_smm_ros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=34 "Built target hkust_smm_ros"
 .PHONY : EPSILON/core/semantic_map_manager/CMakeFiles/hkust_smm_ros.dir/all
 
 # Include target in all.
@@ -3625,7 +3490,7 @@ all: EPSILON/core/semantic_map_manager/CMakeFiles/hkust_smm_ros.dir/all
 
 # Build rule for subdir invocation for target.
 EPSILON/core/semantic_map_manager/CMakeFiles/hkust_smm_ros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/core/semantic_map_manager/CMakeFiles/hkust_smm_ros.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/core/semantic_map_manager/CMakeFiles/hkust_smm_ros.dir/rule
@@ -3654,7 +3519,7 @@ EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/all: EPSILON/core/
 EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/all: EPSILON/core/vehicle_model/CMakeFiles/hkust_pl_vehicle_model.dir/all
 	$(MAKE) -f EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/build.make EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/depend
 	$(MAKE) -f EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/build.make EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=23,24,25 "Built target hkust_pl_smm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=24,25 "Built target hkust_pl_smm"
 .PHONY : EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/all
 
 # Include target in all.
@@ -3664,7 +3529,7 @@ all: EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/all
 
 # Build rule for subdir invocation for target.
 EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/rule
@@ -3712,7 +3577,7 @@ EPSILON/core/route_planner/CMakeFiles/hkust_pl_rp.dir/all: EPSILON/core/vehicle_
 EPSILON/core/route_planner/CMakeFiles/hkust_pl_rp.dir/all: EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/all
 	$(MAKE) -f EPSILON/core/route_planner/CMakeFiles/hkust_pl_rp.dir/build.make EPSILON/core/route_planner/CMakeFiles/hkust_pl_rp.dir/depend
 	$(MAKE) -f EPSILON/core/route_planner/CMakeFiles/hkust_pl_rp.dir/build.make EPSILON/core/route_planner/CMakeFiles/hkust_pl_rp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=22 "Built target hkust_pl_rp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=23 "Built target hkust_pl_rp"
 .PHONY : EPSILON/core/route_planner/CMakeFiles/hkust_pl_rp.dir/all
 
 # Include target in all.
@@ -3722,7 +3587,7 @@ all: EPSILON/core/route_planner/CMakeFiles/hkust_pl_rp.dir/all
 
 # Build rule for subdir invocation for target.
 EPSILON/core/route_planner/CMakeFiles/hkust_pl_rp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/core/route_planner/CMakeFiles/hkust_pl_rp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/core/route_planner/CMakeFiles/hkust_pl_rp.dir/rule
@@ -3785,7 +3650,7 @@ all: EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_ros.dir/all
 
 # Build rule for subdir invocation for target.
 EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_ros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_ros.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_ros.dir/rule
@@ -3826,7 +3691,7 @@ all: EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_lib.dir/all
 
 # Build rule for subdir invocation for target.
 EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_lib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_lib.dir/rule
@@ -3843,68 +3708,6 @@ EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_lib.dir/clean:
 
 # clean rule for target.
 clean: EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_lib.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory EPSILON/util/ai_agent_planner
-
-# Convenience name for "all" pass in the directory.
-EPSILON/util/ai_agent_planner/all: EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/all
-
-.PHONY : EPSILON/util/ai_agent_planner/all
-
-# Convenience name for "clean" pass in the directory.
-EPSILON/util/ai_agent_planner/clean: EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/clean
-
-.PHONY : EPSILON/util/ai_agent_planner/clean
-
-# Convenience name for "preinstall" pass in the directory.
-EPSILON/util/ai_agent_planner/preinstall:
-
-.PHONY : EPSILON/util/ai_agent_planner/preinstall
-
-#=============================================================================
-# Target rules for target EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir
-
-# All Build rule for target.
-EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/all: EPSILON/core/common/CMakeFiles/hkust_pl_ooqp_itf.dir/all
-EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/all: EPSILON/core/common/CMakeFiles/hkust_pl_common.dir/all
-EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/all: EPSILON/core/vehicle_model/CMakeFiles/hkust_pl_vehicle_model.dir/all
-EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/all: EPSILON/core/semantic_map_manager/CMakeFiles/hkust_smm_ros.dir/all
-EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/all: EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/all
-EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/all: EPSILON/core/route_planner/CMakeFiles/hkust_pl_rp.dir/all
-EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/all: EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_ros.dir/all
-EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/all: EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_lib.dir/all
-	$(MAKE) -f EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/build.make EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/depend
-	$(MAKE) -f EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/build.make EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=52 "Built target onlane_ai_agent"
-.PHONY : EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/all
-
-# Include target in all.
-all: EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 23
-	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
-.PHONY : EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/rule
-
-# Convenience name for target.
-onlane_ai_agent: EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/rule
-
-.PHONY : onlane_ai_agent
-
-# clean rule for target.
-EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/clean:
-	$(MAKE) -f EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/build.make EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/clean
-.PHONY : EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/clean
-
-# clean rule for target.
-clean: EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/clean
 
 .PHONY : clean
 
@@ -3980,7 +3783,7 @@ EPSILON/util/eudm_planner/CMakeFiles/hkust_pl_eudm.dir/all: EPSILON/core/vehicle
 EPSILON/util/eudm_planner/CMakeFiles/hkust_pl_eudm.dir/all: EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/all
 	$(MAKE) -f EPSILON/util/eudm_planner/CMakeFiles/hkust_pl_eudm.dir/build.make EPSILON/util/eudm_planner/CMakeFiles/hkust_pl_eudm.dir/depend
 	$(MAKE) -f EPSILON/util/eudm_planner/CMakeFiles/hkust_pl_eudm.dir/build.make EPSILON/util/eudm_planner/CMakeFiles/hkust_pl_eudm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=18,19,20 "Built target hkust_pl_eudm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=18,19,20,21 "Built target hkust_pl_eudm"
 .PHONY : EPSILON/util/eudm_planner/CMakeFiles/hkust_pl_eudm.dir/all
 
 # Include target in all.
@@ -4042,7 +3845,7 @@ EPSILON/util/ssc_planner/CMakeFiles/ssc_server_ros.dir/all: EPSILON/core/semanti
 EPSILON/util/ssc_planner/CMakeFiles/ssc_server_ros.dir/all: EPSILON/util/ssc_planner/CMakeFiles/hkust_pl_ssc.dir/all
 	$(MAKE) -f EPSILON/util/ssc_planner/CMakeFiles/ssc_server_ros.dir/build.make EPSILON/util/ssc_planner/CMakeFiles/ssc_server_ros.dir/depend
 	$(MAKE) -f EPSILON/util/ssc_planner/CMakeFiles/ssc_server_ros.dir/build.make EPSILON/util/ssc_planner/CMakeFiles/ssc_server_ros.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=56 "Built target ssc_server_ros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=54,55 "Built target ssc_server_ros"
 .PHONY : EPSILON/util/ssc_planner/CMakeFiles/ssc_server_ros.dir/all
 
 # Include target in all.
@@ -4052,7 +3855,7 @@ all: EPSILON/util/ssc_planner/CMakeFiles/ssc_server_ros.dir/all
 
 # Build rule for subdir invocation for target.
 EPSILON/util/ssc_planner/CMakeFiles/ssc_server_ros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/util/ssc_planner/CMakeFiles/ssc_server_ros.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/util/ssc_planner/CMakeFiles/ssc_server_ros.dir/rule
@@ -4082,7 +3885,7 @@ EPSILON/util/ssc_planner/CMakeFiles/hkust_pl_ssc.dir/all: EPSILON/core/vehicle_m
 EPSILON/util/ssc_planner/CMakeFiles/hkust_pl_ssc.dir/all: EPSILON/core/semantic_map_manager/CMakeFiles/hkust_pl_smm.dir/all
 	$(MAKE) -f EPSILON/util/ssc_planner/CMakeFiles/hkust_pl_ssc.dir/build.make EPSILON/util/ssc_planner/CMakeFiles/hkust_pl_ssc.dir/depend
 	$(MAKE) -f EPSILON/util/ssc_planner/CMakeFiles/hkust_pl_ssc.dir/build.make EPSILON/util/ssc_planner/CMakeFiles/hkust_pl_ssc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=26,27 "Built target hkust_pl_ssc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=26,27,28 "Built target hkust_pl_ssc"
 .PHONY : EPSILON/util/ssc_planner/CMakeFiles/hkust_pl_ssc.dir/all
 
 # Include target in all.
@@ -4200,7 +4003,7 @@ EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/all: EPSILON/util/ssc_
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/all: EPSILON/util/ssc_planner/CMakeFiles/hkust_pl_ssc.dir/all
 	$(MAKE) -f EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/build.make EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/depend
 	$(MAKE) -f EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/build.make EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target ilqr_planner_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52 "Built target ilqr_planner_lib"
 .PHONY : EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/all
 
 # Include target in all.
@@ -4210,7 +4013,7 @@ all: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/all
 
 # Build rule for subdir invocation for target.
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 80
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 83
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/rule
@@ -4299,7 +4102,7 @@ EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_node.dir/all: EPSILON/util/ssc
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_node.dir/all: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/all
 	$(MAKE) -f EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_node.dir/build.make EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_node.dir/depend
 	$(MAKE) -f EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_node.dir/build.make EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=51 "Built target ilqr_planner_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=53 "Built target ilqr_planner_node"
 .PHONY : EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_node.dir/all
 
 # Include target in all.
@@ -4309,7 +4112,7 @@ all: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_node.dir/all
 
 # Build rule for subdir invocation for target.
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 81
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 84
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_node.dir/rule
@@ -4365,7 +4168,7 @@ EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_eudm.dir/all: EPSILON/u
 EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_eudm.dir/all: EPSILON/util/ssc_planner/CMakeFiles/ssc_server_ros.dir/all
 	$(MAKE) -f EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_eudm.dir/build.make EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_eudm.dir/depend
 	$(MAKE) -f EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_eudm.dir/build.make EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_eudm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=58 "Built target test_ssc_with_eudm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=57 "Built target test_ssc_with_eudm"
 .PHONY : EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_eudm.dir/all
 
 # Include target in all.
@@ -4375,7 +4178,7 @@ all: EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_eudm.dir/all
 
 # Build rule for subdir invocation for target.
 EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_eudm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_eudm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_eudm.dir/rule
@@ -4410,7 +4213,7 @@ EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_mpdm.dir/all: EPSILON/c
 EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_mpdm.dir/all: EPSILON/util/ssc_planner/CMakeFiles/ssc_server_ros.dir/all
 	$(MAKE) -f EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_mpdm.dir/build.make EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_mpdm.dir/depend
 	$(MAKE) -f EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_mpdm.dir/build.make EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_mpdm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=59 "Built target test_ssc_with_mpdm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=58 "Built target test_ssc_with_mpdm"
 .PHONY : EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_mpdm.dir/all
 
 # Include target in all.
@@ -4420,7 +4223,7 @@ all: EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_mpdm.dir/all
 
 # Build rule for subdir invocation for target.
 EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_mpdm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 27
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_mpdm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/app/planning_integrated/CMakeFiles/test_ssc_with_mpdm.dir/rule
@@ -4456,7 +4259,7 @@ EPSILON/app/planning_integrated/CMakeFiles/test_ilqr_with_eudm.dir/all: EPSILON/
 EPSILON/app/planning_integrated/CMakeFiles/test_ilqr_with_eudm.dir/all: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/all
 	$(MAKE) -f EPSILON/app/planning_integrated/CMakeFiles/test_ilqr_with_eudm.dir/build.make EPSILON/app/planning_integrated/CMakeFiles/test_ilqr_with_eudm.dir/depend
 	$(MAKE) -f EPSILON/app/planning_integrated/CMakeFiles/test_ilqr_with_eudm.dir/build.make EPSILON/app/planning_integrated/CMakeFiles/test_ilqr_with_eudm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=57 "Built target test_ilqr_with_eudm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=56 "Built target test_ilqr_with_eudm"
 .PHONY : EPSILON/app/planning_integrated/CMakeFiles/test_ilqr_with_eudm.dir/all
 
 # Include target in all.
@@ -4466,7 +4269,7 @@ all: EPSILON/app/planning_integrated/CMakeFiles/test_ilqr_with_eudm.dir/all
 
 # Build rule for subdir invocation for target.
 EPSILON/app/planning_integrated/CMakeFiles/test_ilqr_with_eudm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 85
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 89
 	$(MAKE) -f CMakeFiles/Makefile2 EPSILON/app/planning_integrated/CMakeFiles/test_ilqr_with_eudm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/epsilon/build/CMakeFiles 0
 .PHONY : EPSILON/app/planning_integrated/CMakeFiles/test_ilqr_with_eudm.dir/rule

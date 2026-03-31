@@ -825,9 +825,57 @@ EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/carte
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/cartesian_corridor_constraint.cpp.o.provides.build: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/cartesian_corridor_constraint.cpp.o
 
 
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/flags.make
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o: /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_lqr_warm_start.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o"
+	cd /root/epsilon/build/EPSILON/util/ilqr_planner && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o -c /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_lqr_warm_start.cpp
+
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.i"
+	cd /root/epsilon/build/EPSILON/util/ilqr_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_lqr_warm_start.cpp > CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.i
+
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.s"
+	cd /root/epsilon/build/EPSILON/util/ilqr_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_lqr_warm_start.cpp -o CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.s
+
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o.requires:
+
+.PHONY : EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o.requires
+
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o.provides: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o.requires
+	$(MAKE) -f EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/build.make EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o.provides.build
+.PHONY : EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o.provides
+
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o.provides.build: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o
+
+
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/flags.make
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o: /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_al_ilqr_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o"
+	cd /root/epsilon/build/EPSILON/util/ilqr_planner && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o -c /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_al_ilqr_solver.cpp
+
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.i"
+	cd /root/epsilon/build/EPSILON/util/ilqr_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_al_ilqr_solver.cpp > CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.i
+
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.s"
+	cd /root/epsilon/build/EPSILON/util/ilqr_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_al_ilqr_solver.cpp -o CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.s
+
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o.requires:
+
+.PHONY : EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o.requires
+
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o.provides: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o.requires
+	$(MAKE) -f EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/build.make EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o.provides.build
+.PHONY : EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o.provides
+
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o.provides.build: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o
+
+
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_planner.cpp.o: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/flags.make
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_planner.cpp.o: /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_planner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_planner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_planner.cpp.o"
 	cd /root/epsilon/build/EPSILON/util/ilqr_planner && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_planner.cpp.o -c /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_planner.cpp
 
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_planner.cpp.i: cmake_force
@@ -851,7 +899,7 @@ EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_
 
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_visualizer.cpp.o: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/flags.make
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_visualizer.cpp.o: /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_visualizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_visualizer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_visualizer.cpp.o"
 	cd /root/epsilon/build/EPSILON/util/ilqr_planner && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_visualizer.cpp.o -c /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_visualizer.cpp
 
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_visualizer.cpp.i: cmake_force
@@ -875,7 +923,7 @@ EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_
 
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_server_ros.cpp.o: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/flags.make
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_server_ros.cpp.o: /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_server_ros.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_server_ros.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_server_ros.cpp.o"
 	cd /root/epsilon/build/EPSILON/util/ilqr_planner && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_server_ros.cpp.o -c /root/epsilon/src/EPSILON/util/ilqr_planner/src/ilqr_planner/ilqr_server_ros.cpp
 
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_server_ros.cpp.i: cmake_force
@@ -931,6 +979,8 @@ ilqr_planner_lib_OBJECTS = \
 "CMakeFiles/ilqr_planner_lib.dir/__/__/core/common/thirdparty/altro-cpp/examples/obstacle_constraints.cpp.o" \
 "CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/cartesian_dynamics.cpp.o" \
 "CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/cartesian_corridor_constraint.cpp.o" \
+"CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o" \
+"CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o" \
 "CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_planner.cpp.o" \
 "CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_visualizer.cpp.o" \
 "CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_server_ros.cpp.o"
@@ -970,6 +1020,8 @@ ilqr_planner_lib_EXTERNAL_OBJECTS =
 /root/epsilon/devel/lib/libilqr_planner_lib.so: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/__/__/core/common/thirdparty/altro-cpp/examples/obstacle_constraints.cpp.o
 /root/epsilon/devel/lib/libilqr_planner_lib.so: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/cartesian_dynamics.cpp.o
 /root/epsilon/devel/lib/libilqr_planner_lib.so: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/cartesian_corridor_constraint.cpp.o
+/root/epsilon/devel/lib/libilqr_planner_lib.so: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o
+/root/epsilon/devel/lib/libilqr_planner_lib.so: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o
 /root/epsilon/devel/lib/libilqr_planner_lib.so: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_planner.cpp.o
 /root/epsilon/devel/lib/libilqr_planner_lib.so: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_visualizer.cpp.o
 /root/epsilon/devel/lib/libilqr_planner_lib.so: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_server_ros.cpp.o
@@ -1078,7 +1130,7 @@ ilqr_planner_lib_EXTERNAL_OBJECTS =
 /root/epsilon/devel/lib/libilqr_planner_lib.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /root/epsilon/devel/lib/libilqr_planner_lib.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 /root/epsilon/devel/lib/libilqr_planner_lib.so: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX shared library /root/epsilon/devel/lib/libilqr_planner_lib.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/epsilon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX shared library /root/epsilon/devel/lib/libilqr_planner_lib.so"
 	cd /root/epsilon/build/EPSILON/util/ilqr_planner && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ilqr_planner_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1118,6 +1170,8 @@ EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/requires: EPSILON/util
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/requires: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/__/__/core/common/thirdparty/altro-cpp/examples/obstacle_constraints.cpp.o.requires
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/requires: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/cartesian_dynamics.cpp.o.requires
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/requires: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/cartesian_corridor_constraint.cpp.o.requires
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/requires: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o.requires
+EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/requires: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o.requires
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/requires: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_planner.cpp.o.requires
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/requires: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_visualizer.cpp.o.requires
 EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/requires: EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_server_ros.cpp.o.requires

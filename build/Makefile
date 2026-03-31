@@ -1403,32 +1403,6 @@ vehicle_msgs_genpy/fast:
 .PHONY : vehicle_msgs_genpy/fast
 
 #=============================================================================
-# Target rules for targets named phy_simulator_planning_node
-
-# Build rule for target.
-phy_simulator_planning_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 phy_simulator_planning_node
-.PHONY : phy_simulator_planning_node
-
-# fast build rule for target.
-phy_simulator_planning_node/fast:
-	$(MAKE) -f EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/build.make EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_planning_node.dir/build
-.PHONY : phy_simulator_planning_node/fast
-
-#=============================================================================
-# Target rules for targets named phy_simulator_lib
-
-# Build rule for target.
-phy_simulator_lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 phy_simulator_lib
-.PHONY : phy_simulator_lib
-
-# fast build rule for target.
-phy_simulator_lib/fast:
-	$(MAKE) -f EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/build.make EPSILON/core/phy_simulator/CMakeFiles/phy_simulator_lib.dir/build
-.PHONY : phy_simulator_lib/fast
-
-#=============================================================================
 # Target rules for targets named hkust_smm_ros
 
 # Build rule for target.
@@ -1492,19 +1466,6 @@ behavior_planner_lib: cmake_check_build_system
 behavior_planner_lib/fast:
 	$(MAKE) -f EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_lib.dir/build.make EPSILON/core/behavior_planner/CMakeFiles/behavior_planner_lib.dir/build
 .PHONY : behavior_planner_lib/fast
-
-#=============================================================================
-# Target rules for targets named onlane_ai_agent
-
-# Build rule for target.
-onlane_ai_agent: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 onlane_ai_agent
-.PHONY : onlane_ai_agent
-
-# fast build rule for target.
-onlane_ai_agent/fast:
-	$(MAKE) -f EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/build.make EPSILON/util/ai_agent_planner/CMakeFiles/onlane_ai_agent.dir/build
-.PHONY : onlane_ai_agent/fast
 
 #=============================================================================
 # Target rules for targets named hkust_eudm_ros
@@ -1731,14 +1692,11 @@ help:
 	@echo "... _vehicle_msgs_generate_messages_check_deps_PolygonObstacle"
 	@echo "... vehicle_msgs_generate_messages_py"
 	@echo "... vehicle_msgs_genpy"
-	@echo "... phy_simulator_planning_node"
-	@echo "... phy_simulator_lib"
 	@echo "... hkust_smm_ros"
 	@echo "... hkust_pl_smm"
 	@echo "... hkust_pl_rp"
 	@echo "... behavior_planner_ros"
 	@echo "... behavior_planner_lib"
-	@echo "... onlane_ai_agent"
 	@echo "... hkust_eudm_ros"
 	@echo "... hkust_pl_eudm"
 	@echo "... ssc_server_ros"

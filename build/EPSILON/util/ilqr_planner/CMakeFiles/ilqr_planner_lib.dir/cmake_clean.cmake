@@ -31,6 +31,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ilqr_planner_lib.dir/__/__/core/common/thirdparty/altro-cpp/examples/obstacle_constraints.cpp.o"
   "CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/cartesian_dynamics.cpp.o"
   "CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/cartesian_corridor_constraint.cpp.o"
+  "CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o"
+  "CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o"
   "CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_planner.cpp.o"
   "CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_visualizer.cpp.o"
   "CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_server_ros.cpp.o"

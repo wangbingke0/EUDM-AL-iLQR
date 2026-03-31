@@ -7,7 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH='/root/epsilon_planner/devel/lib:/opt/ros/melodic/lib'
-export PKG_CONFIG_PATH='/root/epsilon_planner/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
+export CMAKE_PREFIX_PATH="/root/epsilon/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/root/epsilon/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/root/epsilon/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/root/epsilon/build'
-export PYTHONPATH='/root/epsilon_planner/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'
+export PYTHONPATH="/root/epsilon/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES='/root/epsilon/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/root/epsilon/src:$ROS_PACKAGE_PATH"

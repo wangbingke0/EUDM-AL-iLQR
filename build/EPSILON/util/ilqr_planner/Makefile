@@ -1061,6 +1061,60 @@ src/ilqr_planner/cartesian_dynamics.cpp.s:
 	cd /root/epsilon/build && $(MAKE) -f EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/build.make EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/cartesian_dynamics.cpp.s
 .PHONY : src/ilqr_planner/cartesian_dynamics.cpp.s
 
+src/ilqr_planner/ilqr_al_ilqr_solver.o: src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o
+
+.PHONY : src/ilqr_planner/ilqr_al_ilqr_solver.o
+
+# target to build an object file
+src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o:
+	cd /root/epsilon/build && $(MAKE) -f EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/build.make EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o
+.PHONY : src/ilqr_planner/ilqr_al_ilqr_solver.cpp.o
+
+src/ilqr_planner/ilqr_al_ilqr_solver.i: src/ilqr_planner/ilqr_al_ilqr_solver.cpp.i
+
+.PHONY : src/ilqr_planner/ilqr_al_ilqr_solver.i
+
+# target to preprocess a source file
+src/ilqr_planner/ilqr_al_ilqr_solver.cpp.i:
+	cd /root/epsilon/build && $(MAKE) -f EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/build.make EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.i
+.PHONY : src/ilqr_planner/ilqr_al_ilqr_solver.cpp.i
+
+src/ilqr_planner/ilqr_al_ilqr_solver.s: src/ilqr_planner/ilqr_al_ilqr_solver.cpp.s
+
+.PHONY : src/ilqr_planner/ilqr_al_ilqr_solver.s
+
+# target to generate assembly for a file
+src/ilqr_planner/ilqr_al_ilqr_solver.cpp.s:
+	cd /root/epsilon/build && $(MAKE) -f EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/build.make EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_al_ilqr_solver.cpp.s
+.PHONY : src/ilqr_planner/ilqr_al_ilqr_solver.cpp.s
+
+src/ilqr_planner/ilqr_lqr_warm_start.o: src/ilqr_planner/ilqr_lqr_warm_start.cpp.o
+
+.PHONY : src/ilqr_planner/ilqr_lqr_warm_start.o
+
+# target to build an object file
+src/ilqr_planner/ilqr_lqr_warm_start.cpp.o:
+	cd /root/epsilon/build && $(MAKE) -f EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/build.make EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.o
+.PHONY : src/ilqr_planner/ilqr_lqr_warm_start.cpp.o
+
+src/ilqr_planner/ilqr_lqr_warm_start.i: src/ilqr_planner/ilqr_lqr_warm_start.cpp.i
+
+.PHONY : src/ilqr_planner/ilqr_lqr_warm_start.i
+
+# target to preprocess a source file
+src/ilqr_planner/ilqr_lqr_warm_start.cpp.i:
+	cd /root/epsilon/build && $(MAKE) -f EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/build.make EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.i
+.PHONY : src/ilqr_planner/ilqr_lqr_warm_start.cpp.i
+
+src/ilqr_planner/ilqr_lqr_warm_start.s: src/ilqr_planner/ilqr_lqr_warm_start.cpp.s
+
+.PHONY : src/ilqr_planner/ilqr_lqr_warm_start.s
+
+# target to generate assembly for a file
+src/ilqr_planner/ilqr_lqr_warm_start.cpp.s:
+	cd /root/epsilon/build && $(MAKE) -f EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/build.make EPSILON/util/ilqr_planner/CMakeFiles/ilqr_planner_lib.dir/src/ilqr_planner/ilqr_lqr_warm_start.cpp.s
+.PHONY : src/ilqr_planner/ilqr_lqr_warm_start.cpp.s
+
 src/ilqr_planner/ilqr_planner.o: src/ilqr_planner/ilqr_planner.cpp.o
 
 .PHONY : src/ilqr_planner/ilqr_planner.o
@@ -1280,6 +1334,12 @@ help:
 	@echo "... src/ilqr_planner/cartesian_dynamics.o"
 	@echo "... src/ilqr_planner/cartesian_dynamics.i"
 	@echo "... src/ilqr_planner/cartesian_dynamics.s"
+	@echo "... src/ilqr_planner/ilqr_al_ilqr_solver.o"
+	@echo "... src/ilqr_planner/ilqr_al_ilqr_solver.i"
+	@echo "... src/ilqr_planner/ilqr_al_ilqr_solver.s"
+	@echo "... src/ilqr_planner/ilqr_lqr_warm_start.o"
+	@echo "... src/ilqr_planner/ilqr_lqr_warm_start.i"
+	@echo "... src/ilqr_planner/ilqr_lqr_warm_start.s"
 	@echo "... src/ilqr_planner/ilqr_planner.o"
 	@echo "... src/ilqr_planner/ilqr_planner.i"
 	@echo "... src/ilqr_planner/ilqr_planner.s"
