@@ -1,0 +1,8 @@
+prefix=/root/epsilon/devel
+
+Name: common
+Description: Description of common
+Version: 0.0.0
+Cflags: -I/root/epsilon/src/EPSILON/core/common/inc -I/root/epsilon/src/EPSILON/core/common/thirdparty -I/usr/include -I/usr/include/eigen3 -I/root/epsilon/src/EPSILON/core/common/thirdparty/ooqp/include/ooqp
+Libs: -L${prefix}/lib -lhkust_pl_common
+Requires: roscpp visualization_msgs sensor_msgs tf

@@ -1,0 +1,60 @@
+docker run --name epsilon_planner \
+  --gpus all \
+  --privileged \
+  --network host \
+  -e NVIDIA_DRIVER_CAPABILITIES=all \
+  -e DISPLAY=$DISPLAY \
+  -e GDK_SCALE \
+  -e GDK_DPI_SCALE \
+  -v /etc/localtime:/etc/localtime:ro \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -v /dev/bus/usb:/dev/bus/usb \
+  -v /home/wbk/epsilon:/root/epsilon \
+  -it epsilon_planner:v1.0 bash
+ 
+ 
+ #给rviz权限
+ xhost +local:root
+#先启动，再进入
+docker start epsilon_planner
+docker exec -it epsilon_planner bash 
+
+刷新环境变量：
+source ~/epsilon/devel/setup.bash 
+
+## 完整运行步骤
+
+### 1. 启动roscore
+```bash
+roscore
+```
+
+### 2. 启动RViz可视化
+```bash
+roscd phy_simulator/rviz/
+rviz -d phy_simulator_planning.rviz
+```
+
+### 3. 启动规划器（选择一个）
+
+**选项A: iLQR规划器（新）**
+```bash
+roslaunch planning_integrated test_ilqr_with_eudm_ros.launch
+```
+
+**选项B: SSC规划器（原）**
+```bash
+roslaunch planning_integrated test_ssc_with_eudm_ros.launch
+```
+
+### 4. 启动AI agent
+```bash
+roslaunch ai_agent_planner onlane_ai_agent.launch
+```
+
+### 5. 启动物理仿真器
+```bash
+roslaunch phy_simulator phy_simulator_planning.launch
+```
+roscd aux_tools/src/
+python terminal_server.py

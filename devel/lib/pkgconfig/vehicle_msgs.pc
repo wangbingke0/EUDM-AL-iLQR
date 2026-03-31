@@ -1,0 +1,8 @@
+prefix=/root/epsilon/devel
+
+Name: vehicle_msgs
+Description: Description of vehicle_msgs
+Version: 0.0.0
+Cflags: -I/root/epsilon/devel/include -I/root/epsilon/src/EPSILON/core/vehicle_msgs/inc -I/root/epsilon/src/EPSILON/core/common/inc -I/root/epsilon/src/EPSILON/core/common/thirdparty -I/usr/include -I/usr/include/eigen3 -I/root/epsilon/src/EPSILON/core/common/thirdparty/ooqp/include/ooqp -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+Libs: -L${prefix}/lib -lhkust_pl_common
+Requires: message_runtime

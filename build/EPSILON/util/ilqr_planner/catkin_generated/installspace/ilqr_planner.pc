@@ -1,0 +1,8 @@
+prefix=/root/epsilon/install
+
+Name: ilqr_planner
+Description: Description of ilqr_planner
+Version: 0.1.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3 -I/root/epsilon/src/EPSILON/core/common/thirdparty/altro-cpp -I/root/epsilon/src/EPSILON/core/common/thirdparty
+Libs: -L${prefix}/lib -lilqr_planner_lib
+Requires: roscpp std_msgs geometry_msgs visualization_msgs tf common vehicle_msgs semantic_map_manager ssc_planner
