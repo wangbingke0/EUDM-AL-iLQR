@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- iLQR Planner Launch File -->
+  
+  <arg name="ego_id" default="0" />
+  <arg name="use_sim_state" default="true" />
+  
+  <!-- iLQR Planner Node (for testing) -->
+  <node name="ilqr_planner_node" pkg="ilqr_planner" type="ilqr_planner_node" output="screen">
+    <param name="ego_id" value="$(arg ego_id)" />
+    <param name="use_sim_state" value="$(arg use_sim_state)" />
+  </node>
+  
+  <!-- RViz for visualization -->
+  <node name="rviz" pkg="rviz" type="rviz" 
+        args="-d $(find ilqr_planner)/rviz/ilqr_config.rviz" />
+        
+</launch>
+
